@@ -41,10 +41,38 @@
   #feature .section-title {
     font-size: 1.8rem;
   }
+  #first-info,
+  #sec-info {
+    flex-direction: column;
+  }
+  #first-info .first-info-img,
+  #sec-info .sec-info-img {
+    width: 100%;
+  }
+  #sec-info .sec-info-img-section {
+    order: 1;
+  }
+  #sec-info .sec-info-content {
+    order: 0;
+  }
+  #career section {
+    flex-direction: column;
+  }
+  #career .career-img {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
 }
 @media (min-width: 576px) and (max-width: 992px) {
   html {
     font: 13px;
+  }
+  #career section {
+    flex-direction: column;
+  }
+  #career .career-img {
+    width: 100%;
+    margin-top: 1.5rem;
   }
   section,
   header {

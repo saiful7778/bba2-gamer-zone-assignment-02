@@ -201,3 +201,129 @@ nav .social-media-section {
 .feature-item-section .item .item-img {
   max-width: 260px;
 }
+
+/* first info styles */
+#first-info,
+#sec-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.first-info-content {
+  text-align: right;
+  margin: 2rem;
+}
+.sec-info-content {
+  margin: 2rem;
+}
+#first-info .first-info-img,
+#sec-info .sec-info-img {
+  max-width: 600px;
+}
+
+/* career styles */
+#career {
+  background: var(--clr-primary);
+}
+#career section {
+  display: flex;
+  justify-content: space-between;
+}
+#career .career-img {
+  max-width: 550px;
+}
+#career h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 30px;
+}
+#career .des {
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+.career-info-section {
+  margin: 10px 0;
+}
+.career-info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+#career .btn {
+  font-size: 0.9rem;
+  color: var(--clr-primary);
+  margin-top: 20px;
+}
+
+/* tag styles */
+#tag-section {
+  padding: 80px 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.tag-item-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  gap: 10px;
+}
+.tag-item-section .tag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 50px;
+}
+
+/* footer styles */
+footer {
+  padding: 100px 0;
+  text-align: center;
+  background: var(--text-pri-clr);
+}
+footer div {
+  width: 80%;
+  margin: 0 auto;
+}
+footer .site-logo {
+  color: #fff;
+}
+footer .site-logo {
+  display: flex;
+  justify-content: center;
+}
+.footer-nav,
+.social-media-section {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 60%;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+.footer-nav a {
+  padding: 1rem;
+  display: inline-block;
+  color: #fff;
+}
+.footer-nav.terms a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+.social-media-section a {
+  color: #fff;
+}
+.social-media-section i {
+  font-size: 1.5rem;
+}
