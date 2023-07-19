@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
 /* universal styles */
 :root {
   --clr-primary: #ff42a5;
+  --clr-sec: #4ec5f7;
   --text-pri-clr: #0b0223;
   --text-sec-clr: linear-gradient(
     to bottom,
@@ -45,6 +46,29 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.btn {
+  padding: 1rem 2rem;
+  border: 0;
+  outline: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: var(--clr-primary);
+  color: #fff;
+  margin-right: 1rem;
+}
+.btn-sec {
+  background-color: var(--clr-sec);
+  color: #fff;
+}
 
 /* navigation menu styles */
 nav {
@@ -73,4 +97,40 @@ nav .social-media-section {
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   gap: 1rem;
+}
+
+/* home styles */
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.home-title,
+.home-accent-title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+.home-title {
+  color: var(--text-pri-clr);
+  font-weight: 600;
+}
+.home-accent-title {
+  background-image: var(--text-sec-clr);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 7rem;
+  line-height: 0.8;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+.home-img {
+  max-width: 500px;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  margin: 0.8rem 0;
+  gap: 0.3rem;
 }

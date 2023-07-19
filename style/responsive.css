@@ -1,4 +1,7 @@
 @media (max-width: 576px) {
+  html {
+    font-size: 12px;
+  }
   nav {
     gap: 2rem;
   }
@@ -6,13 +9,44 @@
   nav > ul {
     flex-direction: column;
   }
+  section,
+  header {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #home .home-content {
+    order: 1;
+  }
+  #home .home-img-section {
+    order: 0;
+    margin: 3rem 0;
+  }
+  .home-img {
+    max-width: 300px;
+  }
 }
 @media (min-width: 576px) and (max-width: 992px) {
+  html {
+    font: 13px;
+  }
+  section,
+  header {
+    width: 100%;
+    margin: 0;
+  }
   nav {
     gap: 2rem;
   }
+  #home .home-content {
+    order: 1;
+  }
+  #home .home-img-section {
+    order: 0;
+    margin: 3rem 0;
+  }
   nav,
-  nav > ul {
+  nav > ul,
+  #home {
     flex-direction: column;
   }
 }
