@@ -24,11 +24,22 @@
   .home-img {
     max-width: 300px;
   }
+  #about {
+    flex-wrap: wrap;
+  }
   #about .about-img {
     max-width: 330px;
   }
   #about .about-content {
     text-align: center;
+  }
+  .feature-item-section {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #feature .section-title {
+    font-size: 1.8rem;
   }
 }
 @media (min-width: 576px) and (max-width: 992px) {

@@ -158,7 +158,6 @@ nav .social-media-section {
   justify-content: space-between;
   align-items: center;
   padding: 100px 0;
-  flex-wrap: wrap;
 }
 #about .about-img {
   max-width: 650px;
@@ -178,4 +177,27 @@ nav .social-media-section {
   color: var(--text-light-clr);
   font-size: 1.6rem;
   font-weight: 700;
+}
+
+/* feature section styles */
+#feature {
+  padding: 100px 0;
+}
+#feature .section-title,
+#feature > .section-des {
+  text-align: center;
+}
+.feature-item-section {
+  padding: 2rem 0;
+  display: flex;
+  gap: 1rem;
+}
+.feature-item-section .item .item-des {
+  color: var(--text-light-clr);
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.feature-item-section .item .item-img {
+  max-width: 260px;
 }
