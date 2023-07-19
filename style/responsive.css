@@ -1,0 +1,18 @@
+@media (max-width: 576px) {
+  nav {
+    gap: 2rem;
+  }
+  nav,
+  nav > ul {
+    flex-direction: column;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  nav {
+    gap: 2rem;
+  }
+  nav,
+  nav > ul {
+    flex-direction: column;
+  }
+}
