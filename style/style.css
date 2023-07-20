@@ -302,7 +302,7 @@ footer .site-logo {
   justify-content: center;
 }
 .footer-nav,
-.social-media-section {
+footer .social-media-section {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -321,9 +321,9 @@ footer .site-logo {
 .footer-text {
   color: rgba(255, 255, 255, 0.6);
 }
-.social-media-section a {
+footer .social-media-section a {
   color: #fff;
 }
-.social-media-section i {
+footer .social-media-section i {
   font-size: 1.5rem;
 }
